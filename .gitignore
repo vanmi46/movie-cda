@@ -1,0 +1,51 @@
+### Symfony ###
+/var/
+/vendor/
+/public/bundles/
+
+### Environment files ###
+.env.local
+.env.*.local
+
+### Logs ###
+*.log
+
+### Cache ###
+/var/cache/
+/var/log/
+
+### PHPUnit ###
+/phpunit.xml
+.phpunit.result.cache
+
+### Composer ###
+composer.phar
+
+### Node / Front ###
+/node_modules/
+/npm-debug.log*
+/yarn-error.log*
+
+### Build assets ###
+/public/build/
+/public/assets/
+
+### IDE / Editor ###
+.idea/
+.vscode/
+*.swp
+*.swo
+
+### OS files ###
+.DS_Store
+Thumbs.db
+
+### Symfony CLI ###
+.symfony.local.yaml
+
+### Doctrine ###
+/migrations/*.log
+
+### Secrets ###
+/config/secrets/prod/
+/config/secrets/dev/

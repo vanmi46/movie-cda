@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter un réalisateur{% endblock %}
+
+{% block body %}
+    <h1>Ajouter un réalisateur</h1>
+
+    {% for message in app.flashes('success') %}
+        <div class="alert alert-success">
+            {{ message }}
+        </div>
+    {% endfor %}
+
+    {{ form_start(form) }}
+
+        {{ form_row(form.firstname) }}
+        {{ form_row(form.lastname) }}
+
+        {# Optionnels #}
+        {{ form_row(form.birthDate) }}
+        {{ form_row(form.country) }}
+
+        <button type="submit">
+            Ajouter
+        </button>
+
+    {{ form_end(form) }}
+{% endblock %}

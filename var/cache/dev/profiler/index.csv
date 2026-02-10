@@ -1,0 +1,15 @@
+9b31b2,127.0.0.1,GET,http://127.0.0.1:8000/,1770646358,,404,request
+63a67a,127.0.0.1,GET,http://127.0.0.1:8000/category,1770646374,,200,request
+2c3bfe,127.0.0.1,POST,http://127.0.0.1:8000/category,1770646386,,302,request
+d05ae3,127.0.0.1,GET,http://127.0.0.1:8000/category,1770646386,,200,request
+a417b2,127.0.0.1,GET,http://127.0.0.1:8000/director,1770648336,af6cb8,404,request
+af6cb8,127.0.0.1,GET,http://127.0.0.1:8000/director,1770648336,,404,request
+1b8b47,127.0.0.1,GET,http://127.0.0.1:8000/director,1770648521,,200,request
+058421,127.0.0.1,POST,http://127.0.0.1:8000/director,1770648632,,302,request
+4a9383,127.0.0.1,GET,http://127.0.0.1:8000/director,1770648632,,200,request
+f0d6c9,127.0.0.1,GET,http://127.0.0.1:8000/category/all,1770649108,,200,request
+e2e9f7,127.0.0.1,GET,http://127.0.0.1:8000/director/all,1770649289,bdb744,500,request
+bdb744,127.0.0.1,GET,http://127.0.0.1:8000/director/all,1770649289,,500,request
+6bab5b,127.0.0.1,GET,http://127.0.0.1:8000/director/all,1770649296,bc315c,500,request
+bc315c,127.0.0.1,GET,http://127.0.0.1:8000/director/all,1770649296,,500,request
+7e786c,127.0.0.1,GET,http://127.0.0.1:8000/director/all,1770649413,,200,request
